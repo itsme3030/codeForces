@@ -419,7 +419,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 100 | [C - Ski Resort](https://codeforces.com/contest/1840/problem/C) | [C++20 (GCC 11-64)](./codeforces/1840/C.cpp) | `combinatorics` `math` `two pointers` `*1000` | Aug/27/2023 14:46 | 
 99 | [B - Monsters](https://codeforces.com/contest/1849/problem/B) | [C++17 (GCC 7-32)](./codeforces/1849/B.cpp) | `greedy` `math` `sortings` `*1000` | Aug/27/2023 12:38 | 
 98 | [B - Olya and Game with Arrays](https://codeforces.com/contest/1859/problem/B) | [C++17 (GCC 7-32)](./codeforces/1859/B.cpp) | `constructive algorithms` `greedy` `math` `sortings` `*1000` | Aug/27/2023 11:15 | 
-97 | [B - Longest Palindrome](https://codeforces.com/contest/1304/problem/B) | [C++17 (GCC 7-32)](./codeforces/1304/B.cpp) | `brute force` `constructive algorithms` `greedy` `implementation` `strings` `*1100` | Aug/27/2023 00:00 | 
+97 | [B - Longest Palindrome](https://codeforces.com/contest/1304/problem/B) | [C++17 (GCC 7-32)](./codeforces/1304/B.cpp) | `brute force` `constructive algorithms` `greedy` `implementation` `strings` `*1100` | Aug/27/2023 00:05 | 
 96 | [B - Divan and a New Project ](https://codeforces.com/contest/1614/problem/B) | [C++17 (GCC 7-32)](./codeforces/1614/B.cpp) | `constructive algorithms` `sortings` `*1000` | Aug/26/2023 22:37 | 
 95 | [B - Reverse Sort](https://codeforces.com/contest/1605/problem/B) | [C++17 (GCC 7-32)](./codeforces/1605/B.cpp) | `greedy` `sortings` `*1000` | Aug/06/2023 12:12 | 
 94 | [A - Single Push](https://codeforces.com/contest/1253/problem/A) | [C++17 (GCC 7-32)](./codeforces/1253/A.cpp) | `implementation` `*1000` | Aug/06/2023 11:06 | 
