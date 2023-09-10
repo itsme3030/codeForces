@@ -297,7 +297,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 83 | [C - Game with Reversing](https://codeforces.com/contest/1834/problem/C) | [C++20 (GCC 11-64)](./codeforces/1834/C.cpp) | `games` `greedy` `math` `strings` `*1200` | Sep/12/2023 16:41 | 
 82 | [D - Rudolph and Christmas Tree](https://codeforces.com/contest/1846/problem/D) | [C++20 (GCC 11-64)](./codeforces/1846/D.cpp) | `constructive algorithms` `geometry` `math` `*1200` | Sep/11/2023 18:52 | 
 81 | [B - Vika and the Bridge](https://codeforces.com/contest/1848/problem/B) | [C++20 (GCC 11-64)](./codeforces/1848/B.cpp) | `binary search` `data structures` `greedy` `implementation` `math` `sortings` `*1200` | Sep/11/2023 10:02 | 
-80 | [A - Treasure Hunt](https://codeforces.com/contest/817/problem/A) | [C++20 (GCC 11-64)](./codeforces/817/A.cpp) | `implementation` `math` `number theory` `*1200` | Sep/10/2023 11:43 | 
+80 | [A - Treasure Hunt](https://codeforces.com/contest/817/problem/A) | [C++20 (GCC 11-64)](./codeforces/817/A.cpp) | `implementation` `math` `number theory` `*1200` | Sep/10/2023 11:44 | 
 79 | [A - Kirill And The Game](https://codeforces.com/contest/842/problem/A) | [C++20 (GCC 11-64)](./codeforces/842/A.cpp) | `brute force` `two pointers` `*1200` | Sep/07/2023 09:42 | 
 78 | [B - Maxim Buys an Apartment](https://codeforces.com/contest/854/problem/B) | [C++20 (GCC 11-64)](./codeforces/854/B.cpp) | `constructive algorithms` `math` `*1200` | Sep/07/2023 09:31 | 
 77 | [B - Maximum of Maximums of Minimums](https://codeforces.com/contest/870/problem/B) | [C++20 (GCC 11-64)](./codeforces/870/B.cpp) | `greedy` `*1200` | Sep/07/2023 09:08 | 
