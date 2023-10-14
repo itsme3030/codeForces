@@ -3272,6 +3272,23 @@
     ],
     "timestamp": "Oct/06/2023 19:57"
   },
+  "CF228183106": {
+    "contest_id": 1873,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1873\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Short Sort",
+    "problem_url": "https://codeforces.com/contest/1873/problem/A",
+    "submission_id": "CF228183106",
+    "submission_url": "https://codeforces.com/contest/1873/submission/228183106",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Oct/14/2023 19:59"
+  },
   "CF228188950": {
     "contest_id": 1886,
     "language": "C++20 (GCC 11-64)",

@@ -81,8 +81,10 @@ int main(){
     return 0;
 }
 
-void solve() {
-	char x, y, z; cin >> x >> y >> z;
-	if (x == 'a' || y == 'b' || z == 'c') cout << "YES\n";
-	else cout << "NO\n"; 
+void solve(){
+    char x, y, z;
+    cin >> x >> y >> z;
+    if (x == 'a' || y == 'b' || z == 'c') {
+        cout << "YES\n";
+    }else cout << "NO\n";
 }
