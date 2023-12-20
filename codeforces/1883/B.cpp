@@ -1,32 +1,44 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define ll    long long
-#define lcm(a, b) (a * b) / __gcd(a, b)
-#define ff first
-#define ss second
-#define fastIO ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+long long t = 0;
+#define ll    long long int
+#define gcd(a, b) __gcd((a), (b))
+#define lcm(a, b) (a * b) / gcd(a, b)
 const ll mod = 1000000007;
 const long double pi = 3.14159265358979323846264338327950288419716939937510582097494459230;
-ll tc = 0;
+#define int ll
+//-----------------------------------------------------------------------
 void solve();
-int main() {
-	fastIO;
-	ll tt; cin >> tt; while (tt--)
-	solve();
-	return 0;
+int bin_expo(int a, int b) {
+    int ans = 1;
+    while (b > 0) {
+        if (b % 2) {
+            ans = ans * a;
+        } b/=2;
+        a = a * a;
+    } return ans;
+}
+//-----------------------------------------------------------------------
+signed main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+    int tt = 1; cin >> tt; while (tt--)  
+    solve();
+    return 0;
+}
+//-----------------------------------------------------------------------
+void solve() {
+    int n,k; cin >> n >> k;
+    string s; cin >> s;
+    map<char, int> mp;
+    for (int i =0; i < n; i++) mp[s[i]]++;
+    int cnt = 0;
+    for (auto &x: mp) {
+        cnt += x.second % 2;
+    }
+    cnt -= k;
+    if (cnt <= 1) cout << "YES\n";
+    else cout << "NO\n";
 }
 
-//sol.
-void solve() {
-	ll n, k; cin >> n >> k;
-	string s; cin >> s;
-	map<char, ll> mp;
-	for(int i = 0; i < n; i++) mp[s[i]] += 1;
-	ll got = 0;
-	for (auto &x : mp) {
-		if (x.ss % 2) got++;
-	}
-	if (k >= got - 1) {
-		cout << "YES\n"; return;
-	} else cout << "NO\n";
-}
+
