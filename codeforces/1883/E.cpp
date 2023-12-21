@@ -1,52 +1,57 @@
 #include<bits/stdc++.h>
-#include<ext/pb_ds/assoc_container.hpp>
-#include<ext/pb_ds/tree_policy.hpp>
-#define inf (1LL<<60)
-#define prDouble(x) cout << fixed << setprecision(10) << x
-using namespace __gnu_pbds;
 using namespace std;
-#define int long long
-typedef tree<int,null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update> ordset;
-
-void solve() {
-    int n;
-    cin >> n;
-    vector<int> v(n);
-    for(auto &x : v) cin >> x;
-    map<int, int> big_ness;
-    for(int i = 1; i < n; i++) {
-        int tmp1 = v[i], tmp2 = v[i-1];
-        int cnt = 0;
-
-        if (tmp1 > tmp2) {
-            while (tmp1 > tmp2) {
-                tmp2*=2;
-                cnt++;
-            }
-            if (tmp1 != tmp2) cnt--;
-        } else if (tmp2 > tmp1) {
-            while(tmp2 > tmp1) {
-                tmp1*=2;
-                cnt--;
-            }
-        }
-
-        big_ness[i] = cnt;
-    }
-
-    vector<int> dp(n, 0);
-    for(int i = 1; i < n; i++) {
-        dp[i] = max(0ll, dp[i-1] - big_ness[i]);
-    }
-    int sm  = 0;
-    sm = accumulate(dp.begin(), dp.end(), 0ll);
-    cout << sm << "\n";
+long long t = 0;
+#define ll    long long int
+#define gcd(a, b) __gcd((a), (b))
+#define lcm(a, b) (a * b) / gcd(a, b)
+const ll mod = 1000000007;
+const long double pi = 3.14159265358979323846264338327950288419716939937510582097494459230;
+#define int ll
+//-----------------------------------------------------------------------
+void solve();
+int bin_expo(int a, int b) {
+    int ans = 1;
+    while (b > 0) {
+        if (b % 2) {
+            ans = ans * a;
+        } b/=2;
+        a = a * a;
+    } return ans;
 }
-
+//-----------------------------------------------------------------------
 signed main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int tt = 1; cin >> tt; while (tt--)
-        solve();
+   int tt = 1; cin >> tt; while (tt--)
+    solve();
     return 0;
 }
+//-----------------------------------------------------------------------
+void solve() {
+	int n; cin >> n;
+	vector<int> v(n);
+	for (auto &x : v) cin >> x;
+
+	vector<int> dp(n + 1);
+	dp[0] = 0; int ans = 0;
+	for (int i = 1; i < n; i++) {
+		if (v[i-1] <= v[i]) {
+			int curr = dp[i-1]; int x = v[i];
+			while (curr > 0 && v[i-1] <= x/2) {
+				x/=2; curr--;
+			}
+			ans += curr;
+			dp[i] = curr;
+		} else {
+			int curr = dp[i-1]; int x = v[i];
+			while (v[i-1] > x) {
+				x*=2; curr++;
+			}
+			dp[i] = curr;
+			ans += curr;
+		}
+	}
+	cout << ans << "\n";
+}
+
+
