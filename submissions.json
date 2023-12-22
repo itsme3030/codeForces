@@ -4744,6 +4744,22 @@
     ],
     "timestamp": "Dec/19/2023 23:43"
   },
+  "CF238325509": {
+    "contest_id": 1593,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1593\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Elections",
+    "problem_url": "https://codeforces.com/contest/1593/problem/A",
+    "submission_id": "CF238325509",
+    "submission_url": "https://codeforces.com/contest/1593/submission/238325509",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/22/2023 09:36"
+  },
   "CF238327832": {
     "contest_id": 1593,
     "language": "C++20 (GCC 11-64)",
