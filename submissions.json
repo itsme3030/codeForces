@@ -4744,6 +4744,23 @@
     ],
     "timestamp": "Dec/19/2023 23:43"
   },
+  "CF238460362": {
+    "contest_id": 1607,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1607\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Linear Keyboard",
+    "problem_url": "https://codeforces.com/contest/1607/problem/A",
+    "submission_id": "CF238460362",
+    "submission_url": "https://codeforces.com/contest/1607/submission/238460362",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Dec/23/2023 13:05"
+  },
   "CF238462348": {
     "contest_id": 1607,
     "language": "C++20 (GCC 11-64)",
