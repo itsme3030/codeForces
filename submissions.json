@@ -4744,6 +4744,23 @@
     ],
     "timestamp": "Dec/19/2023 23:43"
   },
+  "CF238594140": {
+    "contest_id": 1811,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1811\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Restore the Array",
+    "problem_url": "https://codeforces.com/contest/1811/problem/C",
+    "submission_id": "CF238594140",
+    "submission_url": "https://codeforces.com/contest/1811/submission/238594140",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1100"
+    ],
+    "timestamp": "Dec/24/2023 00:13"
+  },
   "CF238630590": {
     "contest_id": 1611,
     "language": "C++20 (GCC 11-64)",
