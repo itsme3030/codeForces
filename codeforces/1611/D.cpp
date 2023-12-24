@@ -2,16 +2,6 @@
 using namespace std;
 typedef long long ll;
 #define int ll
-void solve();
-
-signed main() {
-    ios_base::sync_with_stdio(0);
-    cin.tie(0); cout.tie(0);
-    int tt = 1; cin >> tt; while (tt--)  
-    solve();
-    return 0;
-}
-
 
 void solve() {
     int n; cin >> n;
@@ -55,4 +45,12 @@ void solve() {
     }
 
     for (int i = 1; i <= n; i++) cout << val[i] << " "; cout << "\n";
+}
+
+signed main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+    int tt = 1; cin >> tt; while (tt--)  
+    solve();
+    return 0;
 }
