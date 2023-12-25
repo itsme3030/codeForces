@@ -1,111 +1,44 @@
 #include<bits/stdc++.h>
 using namespace std;
-//defines
-#define ll  long long
-#define vll   vector<ll>
-#define vvll  vector<vector<ll>>
-#define pb    push_back
-#define popb  pop_back
-#define ff     first
-#define ss     second
-#define nl  "\n"
-#define cy cout<<"YES"<<nl;
-#define cn cout<<"NO"<<nl;
-#define gcd(a, b) __gcd((a), (b))
-#define lcm(a, b) (a * b) / gcd(a, b)
-const ll mod = 1000000007;
-const long double pi=3.14159265358979323846264338327950288419716939937510582097494459230;
+typedef long long ll;
+#define int ll
 
-
-//functions
-void solve();
-void csort(vector <ll>);
-void csort(vector <int>);
-void csort(vector <ll> &v){
-	ll i = 0;
-	while(i < v.size()){
-		ll cur = v[i] - 1;
-		if(cur < v.size() && v[i] != v[cur]){
-			swap(v[i],v[cur]);
-		}else  
-			i++;
- 	}
-}
-void csort(vector <int> &v){
-	ll i = 0;
-	while(i < v.size()){
-		ll cur = v[i] - 1;
-		if(cur < v.size() && v[i] != v[cur]){
-			swap(v[i],v[cur]);
-		}else  
-			i++;
- 	}
-}
-vector<int> sieve_of_eratosthenes(int limit) {
-    std::vector<bool> primes(limit + 1, true);
-    primes[0] = primes[1] = false;  // 0 and 1 are not prime
-
-    for (int num = 2; num * num <= limit; ++num) {
-        if (primes[num]) {
-            for (int multiple = num * num; multiple <= limit; multiple += num) {
-                primes[multiple] = false;
+void solve() {
+    int n,m; cin >> n >> m;
+    vector<int> v(n);
+    for (auto &x : v) cin >> x;
+    
+    auto bin = [](int mid, vector<int> v, int lim, int n) {
+        for (int i = 0; i < n; i++) {
+            int extra = ((2*mid + v[i]) * (2*mid + v[i]));
+            lim -= extra;
+            if (lim < 0) {
+                return false;
             }
         }
-    }
+        return true;
+    };
+    
 
-    std::vector<int> prime_numbers;
-    for (int num = 2; num <= limit; ++num) {
-        if (primes[num]) {
-            prime_numbers.push_back(num);
+
+    int ans = 0;
+    int s = 1; int e = 1e10;
+    while (s <= e) {
+        int mid = s + (e - s)/2;
+        if (bin(mid, v, m,n)) {
+            ans = mid;
+            s = mid + 1;
+        } else {
+            e = mid - 1;
         }
-    }
-
-    return prime_numbers;
-}
-int main(){
-
-#ifndef ONLINE_JUDGE
-	freopen("input.txt","r",stdin);
-	freopen("output.txt","w",stdout);
-#endif
-ios_base::sync_with_stdio(0);
-cin.tie(0);cout.tie(0);
-
-	ll tt;
-	cin >> tt;
-        while(tt--)
-	solve();
-return 0;
+    }  
+    cout << ans << "\n";
 }
 
-void solve(){
-	//write down your solution from here	
-	ll n; ll c;
-	cin >> n >> c;
-	// double sm = 0;
-	vector<ll> v(n);
-	for (auto &x : v) {
-		cin >> x;
-	}
-
-	ll l = 1;
-	ll r = 1e9;
-	while (l <= r) {
-		ll mid = (r + l)/2;
-		ll sm = 0;
-		for (int i = 0; i < n; i++) {
-			sm += (v[i] + 2 * mid) * (v[i] + 2 * mid);
-			if (sm > c) break;
-		}
-		if (sm == c) {
-			cout << mid << '\n'; 
-			return;
-		}else if (sm > c) {
-			r = mid - 1;
-		}else {
-			l = mid + 1;
-		}
-	}
+signed main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+    int tt = 1; cin >> tt; while (tt--)  
+    solve();
+    return 0;
 }
-
- 
