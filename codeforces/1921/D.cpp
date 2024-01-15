@@ -40,18 +40,6 @@ void solve() {
 		}
 	}  
 
-	 i = 0, j = n-1; k = 0, l = m-1;
-	while (i <= j && k <= l) {
-		int ff = abs(v[i] - a[l]);
-		int ss = abs(v[j] - a[k]);
-		if (ff >= ss) {
-			res2 += ff;
-			l--; i++;
-		}else {
-			res2 += ss;
-			k++; j--;
-		}
-	}  
 
-	cout << max(res1,res2) << "\n";
+	cout << res1 << "\n";
 }
