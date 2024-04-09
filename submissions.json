@@ -7897,6 +7897,24 @@
     ],
     "timestamp": "Mar/29/2024 22:20"
   },
+  "CF255816240": {
+    "contest_id": 742,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\742\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Arpa\u2019s obvious problem and Mehrdad\u2019s terrible solution",
+    "problem_url": "https://codeforces.com/contest/742/problem/B",
+    "submission_id": "CF255816240",
+    "submission_url": "https://codeforces.com/contest/742/submission/255816240",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Apr/09/2024 09:55"
+  },
   "CF256197927": {
     "contest_id": 1898,
     "language": "C++17 (GCC 7-32)",
