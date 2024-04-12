@@ -7913,6 +7913,24 @@
     ],
     "timestamp": "Apr/12/2024 10:24"
   },
+  "CF256272737": {
+    "contest_id": 1744,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1744\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Divisibility by 2^n",
+    "problem_url": "https://codeforces.com/contest/1744/problem/D",
+    "submission_id": "CF256272737",
+    "submission_url": "https://codeforces.com/contest/1744/submission/256272737",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Apr/12/2024 20:20"
+  },
   "CF256723173": {
     "contest_id": 1526,
     "language": "C++20 (GCC 13-64)",
