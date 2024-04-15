@@ -7993,6 +7993,26 @@
     ],
     "timestamp": "Apr/15/2024 17:37"
   },
+  "CF256802204": {
+    "contest_id": 1519,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1519\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Maximum Sum of Products",
+    "problem_url": "https://codeforces.com/contest/1519/problem/D",
+    "submission_id": "CF256802204",
+    "submission_url": "https://codeforces.com/contest/1519/submission/256802204",
+    "tags": [
+      "brute force",
+      "dp",
+      "implementation",
+      "math",
+      "two pointers",
+      "*1600"
+    ],
+    "timestamp": "Apr/15/2024 21:14"
+  },
   "CF256872773": {
     "contest_id": 1555,
     "language": "C++20 (GCC 13-64)",
