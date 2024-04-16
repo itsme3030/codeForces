@@ -7993,6 +7993,23 @@
     ],
     "timestamp": "Apr/15/2024 17:37"
   },
+  "CF256887250": {
+    "contest_id": 1633,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1633\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Make Them Equal",
+    "problem_url": "https://codeforces.com/contest/1633/problem/D",
+    "submission_id": "CF256887250",
+    "submission_url": "https://codeforces.com/contest/1633/submission/256887250",
+    "tags": [
+      "dp",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Apr/16/2024 14:05"
+  },
   "CF256992913": {
     "contest_id": 1398,
     "language": "C++20 (GCC 13-64)",
