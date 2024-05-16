@@ -8683,6 +8683,24 @@
     ],
     "timestamp": "May/14/2024 21:52"
   },
+  "CF261241806": {
+    "contest_id": 1971,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1971\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Find the Car",
+    "problem_url": "https://codeforces.com/contest/1971/problem/E",
+    "submission_id": "CF261241806",
+    "submission_url": "https://codeforces.com/contest/1971/submission/261241806",
+    "tags": [
+      "binary search",
+      "math",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "May/17/2024 00:05"
+  },
   "CF261250563": {
     "contest_id": 1970,
     "language": "C++20 (GCC 13-64)",
