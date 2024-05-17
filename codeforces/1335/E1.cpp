@@ -11,98 +11,57 @@ typedef tree<int,null_type,less<int>, rb_tree_tag,tree_order_statistics_node_upd
 void solve() {
     int n;
     cin >> n;
-    vector<int> v(n);
-    for(auto &x : v) cin >> x;
-    vector<vector<int>> pref(n, vector<int> (27, 0));
+    vector<int> a(n);
+    for(auto &x : a) cin >> x;
+    vector<vector<int>> v(n, vector<int>(27));
+
+    v[0][a[0]]++;
     for(int i = 1; i < n; i++) {
-        pref[i] = pref[i-1];
-        pref[i][v[i]]++;
-    }
+        v[i] = v[i-1];
+        v[i][a[i]]++;
+    }  
 
     int mx = 1;
-    for (int ele = 1; ele <= 26; ele++) {
-        int lo = 0, hi = n-1;
-        int cnt = 0;
-        while (lo < hi) {
-            while (lo <= n-1 && v[lo] != ele) lo++;
-            while (hi >= 0 && v[hi] != ele) hi--;
-
-            if (lo >= hi) break;
-            cnt++;
-            int mx_freq = 0;
-
-            for(int i = 1; i <= 26; i++) {
-                mx_freq = max(mx_freq, pref[hi-1][i] - pref[lo][i]);
+    for(int i = 1; i <= 26; i++) {
+        int find = 0;
+        int l = -1, r = n;
+        while (l <= r) {
+            for(int j = l + 1; j < n; j++) {
+                if (a[j] == i) {
+                    l = j;
+                    break;
+                }
             }
-            mx = max(mx, mx_freq + 2*cnt);
-            hi--, lo++;
+
+            for(int j = r - 1; j >= 0; j--) {
+                if (a[j] == i) {
+                    r = j;
+                    break;
+                }
+            }
+            
+            if (l == -1 || r == n || l == r || l >= r) break;
+            find++;
+
+            vector<int> temp1 = v[r];
+            temp1[a[r]]--;
+            vector<int> temp2 = v[l];
+            
+            for(int s = 1; s <= 26; s++) {
+                temp1[s] -= temp2[s];
+                mx = max(mx,find*2 + temp1[s]);
+            }
         }
     }
+
     cout << mx << "\n";
-
-
-
-
-
-
-//    int mx = 1;
-//    for(int i = 1; i <= 26; i++) {
-//        for(int j = 1; j <= 26; j++) {
-//
-//            int f_ele = i, s_ele = j;
-//            int l_ind = -1;
-//            for(int i = n-1; i >= 0; i--) {
-//                if (v[i] == f_ele) {
-//                    l_ind = i;
-//                    break;
-//                }
-//            }
-//            int s_ind = n;
-//            for(int i = 0; i < n-1; i++) {
-//                if (v[i] == f_ele) {
-//                    s_ind = i;
-//                    break;
-//                }
-//            }
-//
-//            if (s_ind + 1 >= n || l_ind == -1 || l_ind == s_ind) continue;
-//
-//
-//            vector<vector<int>> dp(n, vector<int> (3, 1));
-//
-//            for(int k = l_ind; k >= s_ind + 1; k--) {
-//                if (k == n-1) {
-//                    if (v[k] == s_ele || v[k] == f_ele) {
-//                        dp[k][0]++, dp[k][1]++, dp[k][2]++;
-//                    }
-//                    mx = max({mx, dp[k][0], dp[k][1]});
-//                    continue;
-//                }
-//
-//                if (v[k] == s_ele) {
-//                    dp[k][0] = max(dp[k+1][1] + 1, dp[k+1][0] + 1);
-//                    dp[k][1] = dp[k+1][1];
-//                    dp[k][2] = dp[k+1][2];
-//                } else if (v[k] == f_ele) {
-//                    dp[k][1] = dp[k+1][1] + 1;
-//                    dp[k][2] = max(dp[k+1][2] + 1, dp[k+1][0] + 1);
-//                    dp[k][0] = dp[k+1][0];
-//                } else {
-//                    dp[k][0] = dp[k+1][0];
-//                    dp[k][1] = dp[k+1][1];
-//                    dp[k][2] = dp[k+1][2];
-//                }
-//                mx = max({mx, dp[k][0], dp[k][1], dp[k][2]});
-//            }
-//        }
-//    }
-//    cout << mx << "\n";
+    
 }
 
 signed main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int tt = 1; cin >> tt; while (tt--)
-        solve();
+    int tt = 1; cin >> tt; while (tt--)  
+    solve();
     return 0;
 }

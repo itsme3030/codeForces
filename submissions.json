@@ -8683,6 +8683,26 @@
     ],
     "timestamp": "May/14/2024 21:52"
   },
+  "CF261308731": {
+    "contest_id": 1335,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1335\\E1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E1",
+    "problem_name": "Three Blocks Palindrome (easy version)",
+    "problem_url": "https://codeforces.com/contest/1335/problem/E1",
+    "submission_id": "CF261308731",
+    "submission_url": "https://codeforces.com/contest/1335/submission/261308731",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "dp",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "May/17/2024 15:18"
+  },
   "CF261309572": {
     "contest_id": 1341,
     "language": "C++20 (GCC 13-64)",
