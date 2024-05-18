@@ -8743,6 +8743,24 @@
     ],
     "timestamp": "May/17/2024 21:16"
   },
+  "CF261495514": {
+    "contest_id": 1294,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1294\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Product of Three Numbers",
+    "problem_url": "https://codeforces.com/contest/1294/problem/C",
+    "submission_id": "CF261495514",
+    "submission_url": "https://codeforces.com/contest/1294/submission/261495514",
+    "tags": [
+      "greedy",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "May/18/2024 14:29"
+  },
   "CF261598379": {
     "contest_id": 1342,
     "language": "C++20 (GCC 13-64)",
