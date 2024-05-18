@@ -8743,6 +8743,26 @@
     ],
     "timestamp": "May/17/2024 21:16"
   },
+  "CF261475896": {
+    "contest_id": 1332,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1332\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Composite Coloring",
+    "problem_url": "https://codeforces.com/contest/1332/problem/B",
+    "submission_id": "CF261475896",
+    "submission_url": "https://codeforces.com/contest/1332/submission/261475896",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "number theory",
+      "*1400"
+    ],
+    "timestamp": "May/18/2024 12:32"
+  },
   "CF261477962": {
     "contest_id": 1291,
     "language": "C++20 (GCC 13-64)",
