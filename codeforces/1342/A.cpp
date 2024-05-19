@@ -1,29 +1,31 @@
 #include<bits/stdc++.h>
 #include<ext/pb_ds/assoc_container.hpp>
 #include<ext/pb_ds/tree_policy.hpp>
+#define inf (1LL<<60)
+#define prDouble(x) cout << fixed << setprecision(10) << x
 using namespace __gnu_pbds;
 using namespace std;
-typedef long long ll;
-#define int ll
+#define int long long
 typedef tree<int,null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update> ordset;
-void solve();
+
+void solve() {
+    int x,y;
+    cin >> x >> y;
+    int a,b;
+    cin >> a >> b;
+    if (2*a <= b) {
+        cout << a*(abs(x) + abs(y)) << "\n";
+    } else {
+        if (y > x) swap(x,y);
+        int diff = x-y;
+        cout << diff*a + (x-diff)*b << "\n";
+    }
+}
 
 signed main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-    int tt = 1; cin >> tt; while (tt--)
+    int tt = 1; cin >> tt; while (tt--)  
     solve();
     return 0;
-}
-
-void solve() {
-    int x,y; cin >> x >> y;
-    int a,b; cin >> a >> b;
-    int diff = abs(x-y);
-    int mn  = min(x,y);
-    if (a*2 > b) {
-        cout << diff*a + mn*b << "\n";
-    }else {
-        cout << a*(x+y) << "\n";
-    }
 }
