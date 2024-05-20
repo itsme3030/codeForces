@@ -8743,6 +8743,23 @@
     ],
     "timestamp": "May/17/2024 21:16"
   },
+  "CF261729182": {
+    "contest_id": 1342,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1342\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Binary Period",
+    "problem_url": "https://codeforces.com/contest/1342/problem/B",
+    "submission_id": "CF261729182",
+    "submission_url": "https://codeforces.com/contest/1342/submission/261729182",
+    "tags": [
+      "constructive algorithms",
+      "strings",
+      "*1100"
+    ],
+    "timestamp": "May/20/2024 11:48"
+  },
   "CF261796903": {
     "contest_id": 1974,
     "language": "C++20 (GCC 13-64)",
