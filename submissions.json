@@ -8978,6 +8978,23 @@
     ],
     "timestamp": "May/27/2024 16:20"
   },
+  "CF262893316": {
+    "contest_id": 1758,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1758\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "SSeeeeiinngg DDoouubbllee",
+    "problem_url": "https://codeforces.com/contest/1758/problem/A",
+    "submission_id": "CF262893316",
+    "submission_url": "https://codeforces.com/contest/1758/submission/262893316",
+    "tags": [
+      "constructive algorithms",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "May/27/2024 19:46"
+  },
   "CF262894809": {
     "contest_id": 1758,
     "language": "C++20 (GCC 13-64)",
