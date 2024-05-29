@@ -110,7 +110,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 473 | [B - Increase/Decrease/Copy](https://codeforces.com/contest/1976/problem/B) | [C++17 (GCC 7-32)](./codeforces/1976/B.cpp) | `greedy` `implementation` `*1100` | May/30/2024 21:40 | 
 472 | [A - Verify Password](https://codeforces.com/contest/1976/problem/A) | [C++17 (GCC 7-32)](./codeforces/1976/A.cpp) | `implementation` `sortings` `strings` `*800` | May/30/2024 21:08 | 
 471 | [C - Search in Parallel](https://codeforces.com/contest/1814/problem/C) | [C++17 (GCC 7-32)](./codeforces/1814/C.cpp) | `constructive algorithms` `greedy` `sortings` `*1500` | May/30/2024 00:13 | 
-470 | [C - Binary String Copying](https://codeforces.com/contest/1849/problem/C) | [C++17 (GCC 7-32)](./codeforces/1849/C.cpp) | `binary search` `brute force` `data structures` `hashing` `strings` `*1600` | May/29/2024 23:28 | 
+470 | [C - Binary String Copying](https://codeforces.com/contest/1849/problem/C) | [C++20 (GCC 13-64)](./codeforces/1849/C.cpp) | `binary search` `brute force` `data structures` `hashing` `strings` `*1600` | May/29/2024 23:34 | 
 469 | [C - Add, Divide and Floor](https://codeforces.com/contest/1901/problem/C) | [C++17 (GCC 7-32)](./codeforces/1901/C.cpp) | `constructive algorithms` `greedy` `math` `*1400` | May/28/2024 14:54 | 
 468 | [C - Almost All Multiples](https://codeforces.com/contest/1758/problem/C) | [C++17 (GCC 7-32)](./codeforces/1758/C.cpp) | `greedy` `number theory` `*1400` | May/28/2024 00:24 | 
 467 | [C - Arrow Path](https://codeforces.com/contest/1948/problem/C) | [C++20 (GCC 13-64)](./codeforces/1948/C.cpp) | `brute force` `constructive algorithms` `dfs and similar` `dp` `graphs` `shortest paths` `*1300` | May/27/2024 16:20 | 
