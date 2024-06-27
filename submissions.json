@@ -1,4 +1,23 @@
 {
+  "CF267765987": {
+    "contest_id": 490,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\490\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Hacking Cypher",
+    "problem_url": "https://codeforces.com/contest/490/problem/C",
+    "submission_id": "CF267765987",
+    "submission_url": "https://codeforces.com/contest/490/submission/267765987",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Jun/27/2024 22:31"
+  },
   "CF267780457": {
     "contest_id": 463,
     "language": "C++17 (GCC 7-32)",
