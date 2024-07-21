@@ -1,4 +1,22 @@
 {
+  "CF271767435": {
+    "contest_id": 1994,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1994\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fun Game",
+    "problem_url": "https://codeforces.com/contest/1994/problem/B",
+    "submission_id": "CF271767435",
+    "submission_url": "https://codeforces.com/contest/1994/submission/271767435",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "greedy",
+      "math"
+    ],
+    "timestamp": "Jul/21/2024 20:08"
+  },
   "CF271913892": {
     "contest_id": 1985,
     "language": "C++20 (GCC 13-64)",
