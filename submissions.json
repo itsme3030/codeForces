@@ -1,4 +1,21 @@
 {
+  "CF271758636": {
+    "contest_id": 1994,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1994\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Diverse Game",
+    "problem_url": "https://codeforces.com/contest/1994/problem/A",
+    "submission_id": "CF271758636",
+    "submission_url": "https://codeforces.com/contest/1994/submission/271758636",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation"
+    ],
+    "timestamp": "Jul/21/2024 18:57"
+  },
   "CF271767435": {
     "contest_id": 1994,
     "language": "C++20 (GCC 13-64)",
