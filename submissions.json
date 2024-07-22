@@ -1,4 +1,22 @@
 {
+  "CF271917806": {
+    "contest_id": 1971,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1971\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Find the Car",
+    "problem_url": "https://codeforces.com/contest/1971/problem/E",
+    "submission_id": "CF271917806",
+    "submission_url": "https://codeforces.com/contest/1971/submission/271917806",
+    "tags": [
+      "binary search",
+      "math",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Jul/22/2024 17:57"
+  },
   "CF271920277": {
     "contest_id": 1950,
     "language": "C++20 (GCC 13-64)",
