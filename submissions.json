@@ -1,4 +1,22 @@
 {
+  "CF272303298": {
+    "contest_id": 1992,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1992\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Angry Monk",
+    "problem_url": "https://codeforces.com/contest/1992/problem/B",
+    "submission_id": "CF272303298",
+    "submission_url": "https://codeforces.com/contest/1992/submission/272303298",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jul/24/2024 16:51"
+  },
   "CF272303694": {
     "contest_id": 1992,
     "language": "C++20 (GCC 13-64)",
