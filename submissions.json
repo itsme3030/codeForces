@@ -1,4 +1,24 @@
 {
+  "CF272301986": {
+    "contest_id": 1995,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1995\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Squaring",
+    "problem_url": "https://codeforces.com/contest/1995/problem/C",
+    "submission_id": "CF272301986",
+    "submission_url": "https://codeforces.com/contest/1995/submission/272301986",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Jul/24/2024 16:44"
+  },
   "CF272303298": {
     "contest_id": 1992,
     "language": "C++20 (GCC 13-64)",
