@@ -1,4 +1,24 @@
 {
+  "CF272303694": {
+    "contest_id": 1992,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1992\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Only Pluses",
+    "problem_url": "https://codeforces.com/contest/1992/problem/A",
+    "submission_id": "CF272303694",
+    "submission_url": "https://codeforces.com/contest/1992/submission/272303694",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jul/24/2024 16:54"
+  },
   "CF272567775": {
     "contest_id": 1985,
     "language": "C++20 (GCC 13-64)",
