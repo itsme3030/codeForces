@@ -1,4 +1,22 @@
 {
+  "CF272601635": {
+    "contest_id": 1985,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1985\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Maximum Multiple Sum",
+    "problem_url": "https://codeforces.com/contest/1985/problem/B",
+    "submission_id": "CF272601635",
+    "submission_url": "https://codeforces.com/contest/1985/submission/272601635",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Jul/25/2024 23:37"
+  },
   "CF272601953": {
     "contest_id": 1986,
     "language": "C++20 (GCC 13-64)",
