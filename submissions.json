@@ -1,4 +1,20 @@
 {
+  "CF272858386": {
+    "contest_id": 1968,
+    "language": "C++20 (GCC 13-64)",
+    "path": "codeforces\\1968\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Cells Arrangement",
+    "problem_url": "https://codeforces.com/contest/1968/problem/E",
+    "submission_id": "CF272858386",
+    "submission_url": "https://codeforces.com/contest/1968/submission/272858386",
+    "tags": [
+      "constructive algorithms",
+      "*1600"
+    ],
+    "timestamp": "Jul/26/2024 23:33"
+  },
   "CF272913506": {
     "contest_id": 1933,
     "language": "C++20 (GCC 13-64)",
